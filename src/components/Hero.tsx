@@ -8,7 +8,7 @@ const Hero = () => {
           <div className="eyebrow">KEDAI • OFFICE • SYARIKAT | KELANTAN</div>
           <h1 id="hero-title">
             URUS BANYAK AIRCOND DEKAT PREMIS?<br />
-            <span>MULAKAN DENGAN 2 BAYAR 1 SAHAJA.</span>
+            <span>MULAKAN DENGAN 2, BAYAR 1 SAHAJA.</span>
           </h1>
           <p className="lead">
             Bila unit banyak, bukan setakat “tak sejuk”. Kena fikir kos, timing kerja, staff, customer dan siapa yang nak urus semuanya.
