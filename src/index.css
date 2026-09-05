@@ -160,8 +160,7 @@ h3 {
 }
 
 .brand {
-  width: 140px;
-  max-width: 40vw;
+  width: clamp(100px, 25vw, 140px);
 }
 
 .brand img {
