@@ -617,8 +617,9 @@ h3 {
 }
 
 .cross {
-  display: grid;
-  gap: 48px;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 32px;
 }
 
 .service-lines {
@@ -641,8 +642,9 @@ h3 {
 }
 
 .cctv-layout img {
-  max-width: 400px;
+  width: 100%;
   border: 1px solid var(--line);
+  border-radius: 8px;
 }
 
 .promo-points {
@@ -849,6 +851,7 @@ details p {
   }
 
   .cross {
+    display: grid;
     grid-template-columns: 1fr 1.1fr;
     gap: 48px;
   }
