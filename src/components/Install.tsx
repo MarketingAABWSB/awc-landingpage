@@ -1,4 +1,3 @@
-import { Phone } from 'lucide-react';
 import WaIcon from './WaIcon';
 
 const Install = () => {

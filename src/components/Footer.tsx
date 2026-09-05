@@ -3,14 +3,6 @@ import { Phone, Mail, MapPin } from 'lucide-react';
 import WaIcon from './WaIcon';
 
 const Footer = () => {
-  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
-    e.preventDefault();
-    const element = document.getElementById(targetId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <>
       <section className="section dark final" aria-labelledby="final-title">
