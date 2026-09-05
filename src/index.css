@@ -106,7 +106,7 @@ h3 {
 
 .lead {
   font-size: clamp(0.95rem, 1.5vw, 1.1rem);
-  line-height: 1.5;
+  line-height: 1.6;
   color: #343a42;
   max-width: 760px;
 }
@@ -386,7 +386,7 @@ h3 {
 }
 
 .pain {
-  padding: 16px 0;
+  padding: 24px 0;
   border-bottom: 1px solid var(--line);
   display: grid;
   grid-template-columns: 36px 1fr;
@@ -628,7 +628,7 @@ h3 {
 
 .service-lines span {
   display: block;
-  padding: 12px 0;
+  padding: 16px 0;
   border-bottom: 1px solid var(--line);
   font-weight: 700;
   font-size: 0.9rem;
@@ -876,7 +876,7 @@ details p {
   }
 
   :root {
-    --section-pad: 32px;
+    --section-pad: 48px;
   }
 
   /* Tighter spacing on mobile */
@@ -892,15 +892,6 @@ details p {
 
   .trust-band-grid {
     grid-template-columns: 1fr 1fr;
-  }
-
-  .big-offer-row {
-    grid-template-columns: 1fr;
-    gap: 8px;
-  }
-
-  .big-offer-row .amt {
-    margin-top: 0;
   }
 }
 
